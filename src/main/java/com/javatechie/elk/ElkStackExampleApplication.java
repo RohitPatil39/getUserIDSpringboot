@@ -18,6 +18,7 @@ public class ElkStackExampleApplication {
 
 	Logger logger=LoggerFactory.getLogger(ElkStackExampleApplication.class);
  	int a = 10
+	error line
 	
     @GetMapping("/getUser/{id}")
     public User getUserById(@PathVariable int id) {
